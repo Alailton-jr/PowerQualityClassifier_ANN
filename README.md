@@ -69,10 +69,10 @@ x(t) = \sum_{i=1}^{N} c_i(t) + r(t)
 $$
 
 $$
-A_i(t) = \sqrt{c_i^2(t) + \left( \mathcal{H} \left\{ c_i(t) \right\} \right)^2}
+A_i(t) = \sqrt{c_i^2(t) + ( \mathcal{H} \left[ c_i(t) \right] )^2}
 $$
 $$
-\phi_i(t) = \arctan ( \dfrac{\mathcal{H} \left\{ c_i(t) \right\}}{c_i(t)} ); \; \omega_i(t) = \dfrac{1}{2\pi}\dfrac{d\phi_i(t)}{dt}
+\phi_i(t) = \arctan \left( \dfrac{\mathcal{H} \left[ c_i(t) \right]}{c_i(t)} \right); \; \omega_i(t) = \dfrac{1}{2\pi}\dfrac{d\phi_i(t)}{dt}
 $$
 
 $$
