@@ -95,5 +95,6 @@ The CNN architecture used by the project for classification consists of:
 | Convolution Layer      | filters=10, kernel\_size=3 | ReLU           |
 | Max Pooling Layer      | pool\_size=2               | -              |
 | Flatten Layer          | -                          | -              |
+| Dense Perceptron Layer | units=64                   | ReLU           |
 | Dense Perceptron Layer | units=num\_classes=8       | Softmax        |
 
